@@ -2,7 +2,7 @@
 
 @font-face {
 font-family: "Heebo";
-src: url(./Fonts/Heebo-Bold.woff2) format("woff2");
+src: url(../Fonts/Heebo-Bold.woff2) format("woff2");
 font-weight: 700;
 font-style: normal;
 font-display: swap;
@@ -10,7 +10,7 @@ font-display: swap;
 
 @font-face {
 font-family: "Heebo";
-src: url(./Fonts/Heebo-Light.woff2) format("woff2");
+src: url(../Fonts/Heebo-Light.woff2) format("woff2");
 font-weight: 300;
 font-style: normal;
 font-display: swap;
@@ -18,7 +18,7 @@ font-display: swap;
 
 @font-face {
 font-family: "Yantramanav";
-src: url(./Fonts/Yantramanav-Bold.woff2) format("woff2");
+src: url(../Fonts/Yantramanav-Bold.woff2) format("woff2");
 font-weight: 700;
 font-style: normal;
 font-display: swap;
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     height: 100%;
     aspect-ratio: 1;
-    background: url(./icons/arrow-play.svg) center/70% no-repeat;
+    background: url(../icons/arrow-play.svg) center/70% no-repeat;
     border: var(--border);
     border-radius: 50%;
 }
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
     width: clamp(60px, 10.1vw, 194px);
     aspect-ratio: 1;
     margin-right: 30px;
-    background: url(./icons/arrow.svg) center/contain no-repeat;
+    background: url(../icons/arrow.svg) center/contain no-repeat;
 }
 
 .banner-title {
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
     right: calc(100% + 4px);
     width: 26px;
     aspect-ratio: 1;
-    background: url(./icons/plus.svg);
+    background: url(../icons/plus.svg);
 }
 
 .backdrop-title::after {
@@ -456,7 +456,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     row-gap: 32px;
     padding-top: var(--trainingItemBgIconSize);
-    background: url(./icons/arrow_training.svg) 100% 0/ var(--trainingItemBgIconSize) no-repeat;
+    background: url(../icons/arrow_training.svg) 100% 0/ var(--trainingItemBgIconSize) no-repeat;
 }
 
 .training-title-text {
@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     padding: 150px 30px;
-    background: url(./images/section-join-us.jpg) center/cover no-repeat var(--color-dark-alternate);
+    background: url(../images/section-join-us.jpg) center/cover no-repeat var(--color-dark-alternate);
 }
 
 .join-us-video-play-button {
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5, h6 {
     content: "";
     height: 26px;
     aspect-ratio: 1;
-    background: url(./icons/arrow-play.svg) center/contain no-repeat;
+    background: url(../icons/arrow-play.svg) center/contain no-repeat;
     transition-duration: var(--transition-duration);
 }
 
@@ -533,7 +533,7 @@ h1, h2, h3, h4, h5, h6 {
 .join-us-title::after {
     content: "";
     display: inline-block;
-    background: url(./icons/arrow.svg) center/contain no-repeat;
+    background: url(../icons/arrow.svg) center/contain no-repeat;
     height: 0.7em;
     aspect-ratio: 1;
     scale: 1 -1;
@@ -807,7 +807,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-column-title.has-arrow::after {
     content: "";
     display: inline-block;
-    background: url(./icons/arrow.svg) center / contain no-repeat;
+    background: url(../icons/arrow.svg) center / contain no-repeat;
     height: 0.74em;
     aspect-ratio: 1;
     scale: -1 1;
@@ -828,7 +828,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     height: 100%;
     aspect-ratio: 1;
-    background: url(./icons/arrow-play.svg) center / 70% no-repeat;
+    background: url(../icons/arrow-play.svg) center / 70% no-repeat;
     border: var(--border);
     border-radius: 50%;
 }
@@ -874,7 +874,7 @@ h1, h2, h3, h4, h5, h6 {
         right: calc(100% + -3px);
         width: 26px;
         height: 19px;
-        background: url(./icons/plus.svg) center/contain no-repeat;
+        background: url(../icons/plus.svg) center/contain no-repeat;
     }
 }
 
