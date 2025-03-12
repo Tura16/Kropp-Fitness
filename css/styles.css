@@ -887,6 +887,10 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(0.90);
 }
 
+.footer-subscribe-input {
+    padding-right: 70px;
+}
+
 .footer-soc1als-list {
     display: flex;
     column-gap: 18px;
