@@ -899,7 +899,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-soc1als-link {
     display: flex;
+    
+}
+
+.footer-soc1als-link svg {
     width: 23px;
+    height: 23px;
 }
 
 .footer-copyright {
