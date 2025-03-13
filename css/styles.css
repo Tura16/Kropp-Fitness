@@ -52,10 +52,16 @@ font-display: swap;
 }
 
 /* Chrome, Safari, Edge, Opera */
-
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 /* Firefox */
-
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
 body {
     font-family: var(--font-family-base);
@@ -865,6 +871,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     right: 0;
     height: 100%;
+    max-width: 54px;
     aspect-ratio: 1;
     background: url(../icons/arrow-play.svg) center / 70% no-repeat;
     border: var(--border);
